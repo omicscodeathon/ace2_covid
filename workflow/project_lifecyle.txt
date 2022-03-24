@@ -1,0 +1,9 @@
+Omics Codeathon Project Cycle:
+
+                  1. Build Pipeline  2. Test
+
+                8. Upgrade            3. Benchmark
+
+                7. Manage         4. Submit
+
+                  6. Publish    5. Address Reviewer Comments
