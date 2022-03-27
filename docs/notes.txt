@@ -1,0 +1,8 @@
+Notes:
+It's good to validate the results.
+After data analysis, extrapolating the most abundant molecular targets as biomarkers of a particular condition is purely speculative without network reconstruction in specific confounding factors which could have influenced the study outcomes.
+
+To emphasize the methodological contribution of the study, these other possible validation approaches can be done:
+- Crossing different studies in databases that are related to the condition being studied.
+- Sensitivity analysis.
+- Co-occurence network analysis.
