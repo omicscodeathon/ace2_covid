@@ -1,11 +1,12 @@
 Steps: [Convert the steps into workflow diagram (include tools for each step) and update README.md]
-. Pull down the reads
-.
-.
-.
-.
-.
-.
-.
-.
-.
+.Raw reads download from NCBI
+.Quality check (fastqc)
+.Trimming and cleaning of fastq files (cutadapt)
+.Alignment to human reference genome - hg38 (HISAT2)
+.Convert SAM files to BAM files (samtools)
+.Sort BAM files (samtools)
+.Alignment to human reference genome - hg38 (HISAT2)
+.Count reads associated with each gene (HTSeq-count)
+.Raw counts
+.Differential gene expression analysis + generate list of differentially expressed genes (EdgeR)
+.Statistical analysis in R / compare between populations
