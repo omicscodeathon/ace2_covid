@@ -17,4 +17,4 @@ To emphasize the methodological contribution of the study, these other possible 
 
 Use case or Novelty:
 - Since similar pipelines likely exist already, hightlight the specific use case(s) where this proposed solution is particularly relevant.
-- In your benchmarking, you can work with hardware specs that could be available to a typical biologist e.g. 2+ vCPUs, 8Gb RAM,10Gb SSD.
+- In your benchmarking, you can work with hardware specs that could be available to a typical biologist e.g. 2+ vCPUs, 8Gb RAM, 10Gb SSD.
