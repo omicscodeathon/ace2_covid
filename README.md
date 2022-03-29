@@ -9,6 +9,16 @@ SARS-CoV-2 uses the ACE2 enzyme to enter host cells, while downregulation of ACE
 Although the difference in COVID-19 incidence can be explained by many factors such as low testing capacity in Africa, the variable distribution of the ACE2 gene has been linked to this observed phenomenon.
 Little is known about ACE2 expression in African COVID-19 patients compared to non-African COVID-19 patients.
 
+
+## Prerequisites for Analysis
+
+To update tools and their installations
+
 ## Analysis Workflow.
 
 ![workflow](https://user-images.githubusercontent.com/57720624/160533368-4b26c7d8-5f97-40b3-9848-5b01516db1a5.png)
+
+## Team members.
+
+1. [Marion Nyaboke](https://github.com/marionnyaboke)
+2. [Kauthar M. Omar](https://github.com/Kauthar-Omar)
