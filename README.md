@@ -16,7 +16,8 @@ To update tools and their installations
 
 ## Analysis Workflow.
 
-![workflow](https://user-images.githubusercontent.com/57720624/160533368-4b26c7d8-5f97-40b3-9848-5b01516db1a5.png)
+![image](https://user-images.githubusercontent.com/45264074/160587704-756a14cf-982f-43ab-9508-646d8b3e8f50.png)
+
 
 ## Team members.
 
