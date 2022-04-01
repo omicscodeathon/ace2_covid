@@ -23,14 +23,13 @@ To analyze expression level of ACE2 gene in African COVID-19 patients compared t
 ## Methods
 In this study, transcriptomes from African and non-African COVID-19 patients were downloaded from the NCBI sequence read archive (SRA) and analyzed for ACE2 gene expression. The reads were aligned to the human reference genome using HISAT2 and the raw counts generated using HTseq-count. EdgeR was used to conduct differential gene expression analysis with statistical analysis being done in R.
 
-## Prerequisites for Analysis
-
-To update tools and their installations
-
 ## Analysis Workflow.
 
 ![image](https://user-images.githubusercontent.com/45264074/160587704-756a14cf-982f-43ab-9508-646d8b3e8f50.png)
 
+## Prerequisites for Analysis
+
+To update tools and their installations
 
 ## Team members.
 
