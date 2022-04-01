@@ -1,12 +1,6 @@
 # Expression Level Analysis of ACE2 Receptor to Determine the Effect of Malaria Endemicity on CoVID-19 Outcomes
 
-<p align="center">
-  <img 
-    width="300"
-    height="300"
-    src="https://user-images.githubusercontent.com/45264074/161214356-89132f82-2c02-4144-a963-c49c9afdf570.png"
-  >
-</p>
+![image](https://user-images.githubusercontent.com/45264074/161214522-0ad8b18c-7530-485d-b877-875bac477a2a.png)
 
 Global Malaria belt
 
