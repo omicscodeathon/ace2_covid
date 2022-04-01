@@ -4,7 +4,7 @@
   <img 
     width="300"
     height="300"
-    src="http://www.malariacampaign.gov.lk/en/travelers-guide"
+    src="![image](https://user-images.githubusercontent.com/45264074/161214356-89132f82-2c02-4144-a963-c49c9afdf570.png)"
   >
 </p>
 
