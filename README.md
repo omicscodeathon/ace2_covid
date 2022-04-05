@@ -30,7 +30,48 @@ In this study, transcriptomes from African and non-African COVID-19 patients wer
 
 To update tools and their installations
 
+The data used for the analysis was retrieved from NCBI. The accession numbers for the data used can be found under [accession](accessions/accessions.txt).
+
+#### Tools and packages.
+Prior to installation of the analysis packages you need to have a unix environment i.e linux or macOS. Moreover you need to install [R](https://cran.r-project.org/), [RStudio IDE](https://www.rstudio.com/products/rstudio/download/) and [miniconda](https://docs.conda.io/en/latest/miniconda.html).
+
+###### Installation of unix packages.
+ - ```bash
+ conda install -c bioconda fastqc
+```
+
+- ``` bash
+conda install -c bioconda cutadapt
+```
+
+- ```bash
+conda install -c bioconda hisat2
+```
+
+- ```bash
+conda install -c bioconda htseq
+```
+
+- ```bash
+conda install -c bioconda samtools
+```
+
+
+###### Installation of packages in RStudio
+
+- ```r
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+```
+
+- ```r
+BiocManager::install("edgeR")
+```
+
 ## Team members.
 
-1. [Marion Nyaboke](https://github.com/marionnyaboke) Student, Msc. Bioinformatics, Pwani University, Kenya | Project/Tech Lead 
-2. [Kauthar M. Omar](https://github.com/Kauthar-Omar)
+1. [Marion Nyaboke](https://github.com/marionnyaboke) Student, Msc. Bioinformatics, Pwani University, Kenya | Project/Tech Lead.
+2. [Kauthar M. Omar](https://github.com/Kauthar-Omar) Msc. Bioinformatics student, Pwani University, Kenya | Writers Lead.
+3. [Ayorinde](https://github.com/Ayor1)
+4. [Oumaima Dachi]()
+5. [Billiah Bwana]()
