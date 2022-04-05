@@ -36,35 +36,33 @@ The data used for the analysis was retrieved from NCBI. The accession numbers fo
 Prior to installation of the analysis packages you need to have a unix environment i.e linux or macOS. Moreover you need to install [R](https://cran.r-project.org/), [RStudio IDE](https://www.rstudio.com/products/rstudio/download/) and [miniconda](https://docs.conda.io/en/latest/miniconda.html).
 
 ###### Installation of unix packages.
- - ```bash
+ ```bash
  conda install -c bioconda fastqc
 ```
 
-- ``` bash
+``` bash
 conda install -c bioconda cutadapt
 ```
 
-- ```bash
+```bash
 conda install -c bioconda hisat2
 ```
 
-- ```bash
+```bash
 conda install -c bioconda htseq
 ```
 
-- ```bash
+```bash
 conda install -c bioconda samtools
 ```
 
 
 ###### Installation of packages in RStudio
 
-- ```r
+```r
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-```
-
-- ```r
+    
 BiocManager::install("edgeR")
 ```
 
