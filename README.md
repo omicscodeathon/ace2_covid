@@ -28,8 +28,6 @@ In this study, transcriptomes from African and non-African COVID-19 patients wer
 
 ## Prerequisites for Analysis
 
-To update tools and their installations
-
 The data used for the analysis was retrieved from NCBI. The accession numbers for the data used can be found under [accession](accessions/accessions.txt).
 
 #### Tools and packages.
