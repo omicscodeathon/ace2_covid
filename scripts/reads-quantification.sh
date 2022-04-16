@@ -1,22 +1,18 @@
 #!/bin/bash
 
-#SBATCH -p batch
-#SBATCH -J counts
-#SBATCH -n 8
-
 #Read count quantification
 #Script to counts the number of reads aligned to the reference genome using HTSeq.
 
-module load htseq
+#module load htseq
 
-cd /home/emurungi/gitau/marion/raw
+cd /srv/data/my_shared_data_folder/ace2covid/results/feature-counts
 
 # process paired-end data
 
-BAM_DIR="/home/emurungi/gitau/marion/ACE/bam"
+BAM_DIR="/srv/data/my_shared_data_folder/ace2covid/results/bam-files"
 
 bam_file_name=$(basename "$BAM_DIR" .sorted.bam)
-GTF_FILE=GCF_000001405.39_GRCh38.p13_genomic.gtf
+GTF_FILE=/srv/data/my_shared_data_folder/ace2covid/data/ref-index/GCF_000001405.39_GRCh38.p13_genomic.gtf
 
 for bam_file in ${BAM_DIR}/*.sorted.bam; do
 
