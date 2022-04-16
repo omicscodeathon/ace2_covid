@@ -1,4 +1,4 @@
-# Expression Level Analysis of ACE2 Receptor to Determine the Effect of Malaria Endemicity on CoVID-19 Outcomes
+# Expression Level Analysis of ACE2 Receptor in African and non-African CoVID-19 patients
 
 ## Global Malaria belt
 
