@@ -66,7 +66,7 @@ BiocManager::install("edgeR")
 ## Team members.
 
 1. [Marion Nyaboke](https://github.com/marionnyaboke) Student, Msc. Bioinformatics, Pwani University, Kenya | Project/Tech Lead.
-2. [Kauthar M. Omar](https://github.com/Kauthar-Omar) Msc. Bioinformatics student, Pwani University, Kenya | Writers Lead.
-3. [Ayorinde F. Fayehun](https://github.com/Ayor1) MPhil candidate, Biotechnology unit, Institute of Child Health, University of Ibadan, Nigeria | writer
-4. [Oumaima Dachi]() National School of Arts and Crafts, University of Hassan II Casablanca, Morocco.
-5. [Billiah Bwana]() University of Embu
+2. [Kauthar M. Omar](https://github.com/Kauthar-Omar) Msc. Bioinformatics student, Pwani University, Kenya | Writer's Lead.
+3. [Ayorinde F. Fayehun](https://github.com/Ayor1) MPhil candidate, Biotechnology unit, Institute of Child Health, University of Ibadan, Nigeria | writer.
+4. [Oumaima Dachi](https://github.com/oumaima-dachi) MSc. Bioinformatics & Data science, National School of Arts and Crafts, University of Hassan II Casablanca, Morocco.
+5. [Billiah Bwana](https://github.com/Billiah-Bwana) MSc. Genetics student, University of Embu.
