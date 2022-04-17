@@ -54,7 +54,8 @@ apt-get -y install python-htseq=0.6.1p1-4build1
 ```
 
 ```bash
-conda install -c bioconda samtools
+#Samtools v1.7.1
+apt-get install -y samtools=1.7-1
 ```
 
 
@@ -64,7 +65,7 @@ conda install -c bioconda samtools
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
     
-edgeR: 3.36.0    
+#edgeR: 3.36.0    
 BiocManager::install("edgeR")
 ```
 
