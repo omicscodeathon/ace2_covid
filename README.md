@@ -30,23 +30,27 @@ In this study, transcriptomes from African and non-African COVID-19 patients wer
 The data used for the analysis was retrieved from NCBI. The accession numbers for the data used can be found under [accession](accessions/accessions.txt).
 
 #### Tools and packages.
-Prior to installation of the analysis packages you need to have a unix environment i.e linux or macOS. Moreover you need to install [R](https://cran.r-project.org/), [RStudio IDE](https://www.rstudio.com/products/rstudio/download/) and [miniconda](https://docs.conda.io/en/latest/miniconda.html).
+Prior to installation of the analysis packages you need to have a unix environment i.e linux or macOS. Moreover you need to install [R](https://cran.r-project.org/) and [RStudio IDE](https://www.rstudio.com/products/rstudio/download/).
 
 ###### Installation of unix packages.
  ```bash
- conda install -c bioconda fastqc
+#Fastqc v0.11.9
+wget https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.9.zip
 ```
 
 ``` bash
-conda install -c bioconda cutadapt
+#Cutadapt v1.15.1
+apt-get -y install cutadapt=1.15-1
 ```
 
 ```bash
-conda install -c bioconda hisat2
+#Hisat2
+apt-get install -y hisat2=2.1.0-1
 ```
 
 ```bash
-conda install -c bioconda htseq
+#Htseq-count
+apt-get -y install python-htseq=0.6.1p1-4build1
 ```
 
 ```bash
@@ -60,6 +64,7 @@ conda install -c bioconda samtools
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
     
+edgeR: 3.36.0    
 BiocManager::install("edgeR")
 ```
 
