@@ -14,10 +14,6 @@ The global COVID-19 pandemic caused by SARS-CoV-2 has spread rapidly across the 
 ## General Objective
 To analyze expression level of ACE2 gene in African COVID-19 patients compared to non- African COVID-19 patients.
 
-## Specific objectives
-1. To determine the expression level of ACE2 gene in African and non-African COVID-19 patients
-2. To determine how the expression level of ACE2 gene in African COVID-19 patients compares to that of non- African COVID-19 patients
-
 ## Methods
 In this study, transcriptomes from African and non-African COVID-19 patients were downloaded from the NCBI sequence read archive (SRA) and analyzed for ACE2 gene expression. The reads were aligned to the human reference genome using HISAT2 and the raw counts generated using HTseq-count. EdgeR was used to conduct differential gene expression analysis with statistical analysis being done in R.
 
