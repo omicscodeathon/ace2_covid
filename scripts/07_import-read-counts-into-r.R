@@ -8,7 +8,7 @@
 library(tibble)
 
 # # where are we?
-cntdir <- here::here("C:/Users/user/Desktop/marion/ACE2/Counts")
+cntdir <- here::here("/srv/data/my_shared_data_folder/ace2covid/results/Counts")
 pat <- ".counts.txt"
 hisat2.all <- list.files(path = cntdir,
                          pattern = pat,
@@ -51,14 +51,6 @@ reads_count <- reads_count[,-1]
 reads_count <- rbind(reads_count,
                                  tot.counts=colSums(reads_count))
 
-# inspect and look at the top row names!
-#head(reads_count)
-
-#tail(reads_count)
-
-####################################
-# take summary rows to a new table
-# ( not starting with Tb and tmp with invert=TRUE )
 
 # transpose table for readability
 
@@ -73,10 +65,9 @@ t(reads_count_summary)
 
 # write summary to file
 write.csv(reads_count_summary,
-          file = here::here("C:/Users/user/Desktop/marion/ACE2/reads_count_summary.csv"),
+          file = here::here("/srv/data/my_shared_data_folder/ace2covid/results/reads_count_summary.csv"),
           row.names = TRUE)
 
-####################################
 # take all data rows to a new table
 reads_count <- reads_count[grep("__", rownames(reads_count), perl=TRUE, invert=TRUE), ]
 
@@ -86,12 +77,12 @@ reads_count <- reads_count[grep("__", rownames(reads_count), perl=TRUE, invert=T
 # colnames(reads_count) <- gsub("(_.*$)", "", colnames(reads_count))
 
 # write data to files
-saveRDS(reads_count, file = here::here("C:/Users/user/Desktop/marion/ACE2/reads_count.RDS"))
+saveRDS(reads_count, file = here::here("/srv/data/my_shared_data_folder/ace2covid/results/reads_count.RDS"))
 
 
 # reads_count <- rownames_to_column(reads_count,"transcript_id")
 write.csv(reads_count, 
-          file = here::here("C:/Users/user/Desktop/marion/ACE2/reads_count.csv"))
+          file = here::here("/srv/data/my_shared_data_folder/ace2covid/results/reads_count.csv"))
 
 # cleanup intermediate objects
 rm(y, z, i, DT, reads_count)
