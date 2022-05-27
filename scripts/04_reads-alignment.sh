@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-cd /home/nyamarim/raw/ref
+cd /srv/data/my_shared_data_folder/ace2covid/raw/ref
 
 # load the blast module
 module load hisat2
