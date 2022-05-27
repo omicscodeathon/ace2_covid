@@ -8,7 +8,7 @@
 library(tibble)
 
 # # where are we?
-cntdir <- here::here("/srv/data/my_shared_data_folder/ace2covid/results/Counts")
+cntdir <- here::here("/srv/data/my_shared_data_folder/ace2covid/results/counts")
 pat <- ".counts.txt"
 hisat2.all <- list.files(path = cntdir,
                          pattern = pat,
