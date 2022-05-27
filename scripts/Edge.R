@@ -9,7 +9,7 @@ library(dplyr)
 
 
 # set the directory from which files are imported
-directory <- "C:/Users/Marion/Desktop/ACE/african-vs-non-african/"
+directory <- "/srv/data/my_shared_data_folder/ace2covid/results/counts/"
 dir(directory)
 
 # read files
