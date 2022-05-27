@@ -5,14 +5,14 @@
 
 #module load htseq
 
-cd /srv/data/my_shared_data_folder/ace2covid/results/feature-counts
+cd /srv/data/my_shared_data_folder/ace2covid/results/counts
 
 # process paired-end data
 
 BAM_DIR="/srv/data/my_shared_data_folder/ace2covid/results/bam"
 
 bam_file_name=$(basename "$BAM_DIR" .sorted.bam)
-GTF_FILE=/srv/data/my_shared_data_folder/ace2covid/data/ref-index/GCF_000001405.39_GRCh38.p13_genomic.gtf
+GTF_FILE=/srv/data/my_shared_data_folder/ace2covid/raw/ref/GCF_000001405.39_GRCh38.p13_genomic.gtf
 
 for bam_file in ${BAM_DIR}/*.sorted.bam; do
 
