@@ -9,7 +9,7 @@ cd /srv/data/my_shared_data_folder/ace2covid/results/feature-counts
 
 # process paired-end data
 
-BAM_DIR="/srv/data/my_shared_data_folder/ace2covid/results/bam-files"
+BAM_DIR="/srv/data/my_shared_data_folder/ace2covid/results/bam"
 
 bam_file_name=$(basename "$BAM_DIR" .sorted.bam)
 GTF_FILE=/srv/data/my_shared_data_folder/ace2covid/data/ref-index/GCF_000001405.39_GRCh38.p13_genomic.gtf
