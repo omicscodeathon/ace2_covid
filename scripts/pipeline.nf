@@ -20,19 +20,19 @@ sam_ch = Channel.fromPath(params.sam)
 ref_ch = Channel.fromPath(params.ref)
 
 
-#process quality_control {
-#
-#	input:
-#	file fastq from fastq_ch
-#
-#	output:
-#	publishDir "${params.outDir}", mode: 'copy'
-#
-#	script:
-#	"""
-#	fastqc ${fastq} -o ${params.outDir}/quality-reports/
-#	"""
-#}
+process quality_control {
+
+	input:
+	file fastq from fastq_ch
+
+	output:
+	publishDir "${params.outDir}", mode: 'copy'
+
+	script:
+	"""
+	fastqc ${fastq} -o ${params.outDir}/quality-reports/
+	"""
+}
 
 process multiqc {
 
