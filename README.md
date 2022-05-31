@@ -65,18 +65,18 @@ if (!require("BiocManager", quietly = TRUE))
 BiocManager::install("edgeR")
 ```
 
-## Pipeline Summary.
+## Pipeline Summary
 By default, the pipeline currently performs the following:
 
-Sequencing quality control (FastQC)
-Combining quality control reports summaries (Multiqc)
-Trimming of adaptors (Cutadapt)
-Index the human reference genome (HISAT2-build)
-Align reads to reference genome (HISAT2)
-Convert sam to bam files (samtools)
-Generate gene counts (htseq-count)
-Import counts into (R)
-Differential gene expression (EdgeR)
+Sequencing quality control (FastQC)\
+Combining quality control reports summaries (Multiqc)\
+Trimming of adaptors (Cutadapt)\
+Index the human reference genome (HISAT2-build)\
+Align reads to reference genome (HISAT2)\
+Convert sam to bam files (samtools)\
+Generate gene counts (htseq-count)\
+Import counts into (R)\
+Differential gene expression (EdgeR)\
 
 
 
