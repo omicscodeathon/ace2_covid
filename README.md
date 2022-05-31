@@ -76,7 +76,7 @@ Align reads to reference genome (HISAT2)\
 Convert sam to bam files (samtools)\
 Generate gene counts (htseq-count)\
 Import counts into (R)\
-Differential gene expression (EdgeR)\
+Differential gene expression (EdgeR)
 
 
 
