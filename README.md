@@ -66,6 +66,8 @@ BiocManager::install("edgeR")
 ```
 
 ## Pipeline Summary
+This is a bioinformatics analysis pipeline used for rnaseq analysis. The pipeline is built using Nextflow, a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. The pipeline is written in DSL1; however, we are working on re-writing the pipeline in DSL2 and would like to share our progress.
+
 By default, the pipeline currently performs the following:
 
 Sequencing quality control (FastQC)\
