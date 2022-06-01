@@ -3,8 +3,10 @@
 // Script parameters
 
 params.samples = "/home/emurungi/gitau/marion/TNBC/TNBCtrimmed/*.fastq"
+params.fastq = "/home/emurungi/gitau/marion/TNBC/raw"
 params.zips = "/home/emurungi/gitau/marion/ACE/results/quality-reports"
 params.trimmed = "/home/emurungi/gitau/marion/TNBC/TNBCtrimmed"
+params.trim = "/home/emurungi/gitau/marion/TNBC/TNBCtrimmed"
 params.ref = "/home/emurungi/gitau/marion/raw"
 params.sam = "/home/emurungi/gitau/marion/TNBC/sam"
 
@@ -14,10 +16,13 @@ params.dgescript = "/home/emurungi/gitau/marion/dge.R"
 
 
 fastq_ch = Channel.fromPath(params.samples)
+trim_ch = Channel.fromPath(params.trim)
 quality_ch = Channel.fromPath(params.zips)
 trimmed_ch = Channel.fromPath(params.trimmed)
 sam_ch = Channel.fromPath(params.sam)
 ref_ch = Channel.fromPath(params.ref)
+
+SAMPLE="SRR10729843"
 
 
 process quality_control {
@@ -52,19 +57,17 @@ process multiqc {
 
 process remove_adaptors {
 
-	input:
-	file trimmed from trimmed_ch
 
 	output:
 	publishDir "${params.outDir}", mode: 'copy'
 
 	script:
 	"""
-	SAMPLE="SRR10729843"
-	cutadapt -a AGATCGGAAGAG -A AGATCGGAAGAG -m15 -o ${SAMPLE}_1.trimmed.fastq -p ${SAMPLE}_2.trimmed.fastq ${trimmed}_1.fastq.gz ${trimmed}_2.fastq.gz
-
+	module load cutadapt
+	cutadapt -a AGATCGGAAGAG -A AGATCGGAAGAG -m15 -o ${params.trim}/${SAMPLE}_1.trimmed.fastq -p ${params.trim}/${SAMPLE}_2.trimmed.fastq ${params.fastq}/${SAMPLE}_1.fastq ${params.fastq}/${SAMPLE}_2.fastq
 	"""
 }
+
 
 process index_ref {
 
