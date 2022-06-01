@@ -44,7 +44,8 @@ process multiqc {
 
 	script:
 	"""
-	multiqc *_fastqc.zip --outdir ${params.outDir}/quality-reports/
+	module load multiqc
+	multiqc ${params.zips} --outdir ${params.outDir}/quality-reports/
 
 	"""
 }
