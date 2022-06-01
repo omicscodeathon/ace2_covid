@@ -57,7 +57,6 @@ process multiqc {
 
 process remove_adaptors {
 
-
 	output:
 	publishDir "${params.outDir}", mode: 'copy'
 
@@ -91,7 +90,6 @@ process align_to_ref {
 
 	script:
 	"""
-	SAMPLE="SRR10729843"
 	hisat2 \
                  -x ${FNA_DIR}/GCF_000001405.39_GRCh38.p13_genomic.fna_index_hisat2 \
                  -1 ${SAMPLE}_1.trimmed.fastq \
