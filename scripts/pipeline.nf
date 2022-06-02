@@ -75,6 +75,7 @@ process index_ref {
 
 	script:
 	"""
+	module load hisat2
 	hisat2-build ${params.ref}/GCF_000001405.39_GRCh38.p13_genomic.fna GCF_000001405.39_GRCh38.p13_genomic.fna_index_hisat2
 
 	"""
