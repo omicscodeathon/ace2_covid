@@ -87,13 +87,13 @@ process align_to_ref {
 	file trimmed from trimmed_ch
 
 	output:
-	publishDir "${params.outDir}", mode: 'copy'
+	publishDir "${params.sam}", mode: 'copy'
 
 	script:
 	"""
 	module load hisat2
 	hisat2 \
-                 -x ${params.outDir}/GCF_000001405.39_GRCh38.p13_genomic.fna_index_hisat2 \
+                 -x ${params.ref}/GCF_000001405.39_GRCh38.p13_genomic.fna_index_hisat2 \
                  -1 ${params.trimmed}/${SAMPLE}_1.trimmed.fastq \
                  -2 ${params.trimmed}/${SAMPLE}_2.trimmed.fastq \
                  -S ${params.sam}/${SAMPLE}.sam \
