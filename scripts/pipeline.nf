@@ -9,6 +9,7 @@ params.trimmed = "/home/emurungi/gitau/marion/TNBC/TNBCtrimmed"
 params.trim = "/home/emurungi/gitau/marion/TNBC/TNBCtrimmed"
 params.ref = "/home/emurungi/gitau/marion/raw"
 params.sam = "/home/emurungi/gitau/marion/TNBC/sam"
+params.bam = "/home/emurungi/gitau/marion/TNBC/sam/bam"
 
 params.outDir = "/home/emurungi/gitau/marion/ACE/results"
 params.rscript = "/home/emurungi/gitau/marion/import_reads.R"
@@ -20,9 +21,10 @@ trim_ch = Channel.fromPath(params.trim)
 quality_ch = Channel.fromPath(params.zips)
 trimmed_ch = Channel.fromPath(params.trimmed)
 sam_ch = Channel.fromPath(params.sam)
+bam_ch = Channel.fromPath(params.bam)
 ref_ch = Channel.fromPath(params.ref)
 
-SAMPLE="SRR10729843"
+SAMPLE="SRR10729852"
 
 
 process quality_control {
