@@ -91,10 +91,11 @@ process align_to_ref {
 
 	script:
 	"""
+	module load hisat2
 	hisat2 \
-                 -x ${FNA_DIR}/GCF_000001405.39_GRCh38.p13_genomic.fna_index_hisat2 \
-                 -1 ${SAMPLE}_1.trimmed.fastq \
-                 -2 ${SAMPLE}_2.trimmed.fastq \
+                 -x ${params.outDir}/GCF_000001405.39_GRCh38.p13_genomic.fna_index_hisat2 \
+                 -1 ${params.trimmed}/${SAMPLE}_1.trimmed.fastq \
+                 -2 ${params.trimmed}/${SAMPLE}_2.trimmed.fastq \
                  -S ${params.sam}/${SAMPLE}.sam \
                  -p 6 \
                 --summary-file ${SAMPLE}.txt \
@@ -102,7 +103,6 @@ process align_to_ref {
 
 	"""
 }
-
 
 process sam_to_bam {
 
