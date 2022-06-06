@@ -106,18 +106,19 @@ process align_to_ref {
 
 process sam_to_bam {
 
-	input:
-	file sam from sam_ch
+        input:
+        file sam from sam_ch
 
-	output:
-	publishDir "${params.outDir}", mode: 'copy'
+        output:
+        publishDir "${params.sam}", mode: 'copy'
 
-	script:
-	"""
-        samtools view -S -b ${sam} | \
-        samtools sort -n -o ${params.outDir}/bam/${sam}.sorted.bam
+        script:
+        """
+        module load samtools
+        samtools view -S -b ${SAMPLE}.sam | \
+        samtools sort -n -o ${params.sam}/bam/${SAMPLE}.sorted.bam
 
-	"""
+        """
 }
 
 process generate_counts {
