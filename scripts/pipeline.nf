@@ -132,15 +132,16 @@ process generate_counts {
 
 	script:
 	"""
+	module load htseq
         htseq-count \
             -f bam \
             -r pos \
             -s no \
             -t exon \
             -i gene \
-            ${bam} \
+            ${params.bam}/${SAMPLE}.sorted.bam \
             ${params.ref}/GCF_000001405.39_GRCh38.p13_genomic.gtf \
-            > ${bam}.counts.txt
+            > ${params.bam}/${SAMPLE}.counts.txt
 
 	"""
 }
