@@ -19,7 +19,7 @@ In this study, transcriptomes from African and non-African COVID-19 patients wer
 
 ## Analysis Workflow
 
-![image](https://user-images.githubusercontent.com/45264074/172140528-a7f6ce82-5213-488c-9ebd-9b866e296e0b.png)
+![image](https://user-images.githubusercontent.com/45264074/172140788-c28d91e4-9d5b-43b1-a63c-510c3d572077.png)
 
 ## Prerequisites for Analysis
 
