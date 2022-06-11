@@ -14,6 +14,8 @@ params.bam = "/home/emurungi/gitau/marion/TNBC/sam/bam"
 params.outDir = "/home/emurungi/gitau/marion/ACE/results"
 params.rscript = "/home/emurungi/gitau/marion/import_reads.R"
 params.dgescript = "/home/emurungi/gitau/marion/dge.R"
+params.enrichmentdownscript = "/home/emurungi/gitau/marion/Enrichment-down.R"
+params.enrichmentupscript = "/home/emurungi/gitau/marion/Enrichment-up.R"
 
 
 fastq_ch = Channel.fromPath(params.samples)
@@ -168,6 +170,30 @@ process dge {
         script:
         """
 	Rscript --vanilla ${params.dgescript}
+        """
+
+}
+
+process enrichment_up {
+
+        output:
+        publishDir "${params.outDir}", mode: 'copy'
+
+        script:
+        """
+	Rscript --vanilla ${params.enrichmentupscript}
+        """
+
+}
+
+process enrichment_down {
+
+        output:
+        publishDir "${params.outDir}", mode: 'copy'
+
+        script:
+        """
+	Rscript --vanilla ${params.enrichmentdownscript}
         """
 
 }
