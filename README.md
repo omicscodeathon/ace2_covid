@@ -1,4 +1,4 @@
-# Expression Level Analysis of ACE2 Receptor in African-American and non-African-American CoVID-19 patients
+# Expression Level Analysis of ACE2 Receptor in African-American and non-African-American COVID-19 patients
 
 ## Global Malaria belt
 
