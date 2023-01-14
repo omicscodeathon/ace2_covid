@@ -1,0 +1,48 @@
+Accession,rna_id,subject_id,age,gender,race,cohort,time_since_onset,hospitalized,batch
+SRR13081202,DU14-03S0000878,325AEE,27,Male,Black/African American,CoV other,NA,NA,1
+SRR13081203,DU14-03S0000889,4AAB31,25,Female,Black/African American,CoV other,NA,NA,1
+SRR13081231,DU18-02S0011679,03ADC4,32,Female,Black/African American,COVID-19,middle,No,1
+SRR13081263,DU18-02S0011651,E1D5C6,59,Male,Black/African American,COVID-19,middle,Yes,1
+SRR13081264,DU18-02S0011652,40646A,60,Male,Black/African American,COVID-19,middle,Yes,2
+SRR13081272,DU18-02S0011662,0FF381,>89,Female,Black/African American,COVID-19,early,Yes,1
+SRR13081273,DU18-02S0011668,2DB5F9,31,Female,Black/African American,COVID-19,middle,Yes,1
+SRR13081274,DU18-02S0011670,EB057C,67,Male,Black/African American,COVID-19,middle,Yes,1
+SRR13081305,DU10-01S0000032,F917BC,59,Female,Black/African American,CoV other,NA,NA,1
+SRR13081307,DU18-02S0011631,E94CCD,88,Female,Black/African American,COVID-19,middle,Yes,2
+SRR13081308,DU18-02S0011633,66D9D8,69,Female,Black/African American,COVID-19,early,Yes,2
+SRR13081315,DU09-02S0000141,228661,18,Female,Black/African American,CoV other,NA,NA,1
+SRR13081350,434323,2A9E18,18,Female,Black/African American,CoV other,NA,NA,2
+SRR13081368,234432,5AD864,18,Female,Black/African American,CoV other,NA,NA,1
+SRR15042711,GSM5418337,RR0997256,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042712,GSM5418338,RR0941834,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042713,GSM5418339,RR0941176,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042714,GSM5418340,RR0931294,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042715,GSM5418341,RR0907841,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042716,GSM5418342,RR0857858,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042717,GSM5418343,RR0830593,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042718,GSM5418344,RR0823855,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042719,GSM5418345,RR0685229,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042720,GSM5418346,RR0579992,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042721,GSM5418347,RR0542663,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042722,GSM5418348,RR0509389,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042723,GSM5418349,RR0469109,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042724,GSM5418350,RR0417079,NA,NA,White,COVID-19,,mild outpatients,NA
+SRR15042725,GSM5418351,RR0370807,NA,NA,White,COVID-19,,mild outpatients,NA
+SRR15042726,GSM5418352,RR0306970,NA,NA,White,COVID-19,,mild outpatients,NA
+SRR15042727,GSM5418353,RR0243818,NA,NA,White,COVID-19,,mild outpatients,NA
+SRR15042728,GSM5418354,RR0234740,NA,NA,White,COVID-19,,mild outpatients,NA
+SRR15042729,GSM5418355,RR0157115,NA,NA,White,COVID-19,,mild outpatients,NA
+SRR15042757,GSM5418383,RR0213942,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042758,GSM5418384,RR0524129,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042759,GSM5418385,RR0849884,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042760,GSM5418386,RR0866687,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042761,GSM5418387,RR0915093,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042763,GSM5418389,RR0318907,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042764,GSM5418390,RR0511931,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042765,GSM5418391,RR0736447,NA,NA,White,COVID-19,,hospitalized moderate to severe,NA
+SRR15042766,GSM5418392,RR0248668,NA,NA,White,COVID-19,,mild outpatients,NA
+SRR15042767,GSM5418393,RR0378574,NA,NA,White,COVID-19,,mild outpatients,NA
+SRR15042768,GSM5418394,RR0467460,NA,NA,White,COVID-19,,mild outpatients,NA
+SRR15042769,GSM5418395,RR0602232,NA,NA,White,COVID-19,,mild outpatients,NA
+SRR15042770,GSM5418396,RR0615993,NA,NA,White,COVID-19,,mild outpatients,NA
+SRR15042771,GSM5418397,RR0424088,NA,NA,White,COVID-19,,mild outpatients,NA
